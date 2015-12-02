@@ -1,3 +1,7 @@
 - clean: []
-- link: {}
+
+- link: 
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore: git/gitignore
+
 - shell: []
