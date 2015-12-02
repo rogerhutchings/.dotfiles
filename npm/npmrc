@@ -1,0 +1,5 @@
+init-author-name = "Roger Hutchings"
+init-author-email = "roger@hutchin.gs"
+init-author-url = "http://www.rogerhutchin.gs"
+init-license = "Apache-2.0"
+init-version = "0.0.1"

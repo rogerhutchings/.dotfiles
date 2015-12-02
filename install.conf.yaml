@@ -3,5 +3,6 @@
 - link: 
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
+    ~/.npmrc: npm/npmrc
 
 - shell: []
