@@ -4,5 +4,6 @@
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
     ~/.npmrc: npm/npmrc
+    ~/.config/nvim: vim
 
 - shell: []
