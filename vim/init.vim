@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'wavded/vim-stylus'
+Plug 'tomasr/molokai'
 call plug#end()
 
 " Remove visual bell stuff
@@ -19,3 +20,4 @@ set expandtab
 
 " Colours
 syntax on
+colorscheme molokai
