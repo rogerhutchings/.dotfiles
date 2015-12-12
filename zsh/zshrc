@@ -9,3 +9,4 @@ source ~/.zsh/colors.zsh
 source ~/.zsh/setopt.zsh
 source ~/.zsh/bindings.zsh
 
+fpath=( "$HOME/.zfunctions" $fpath )
