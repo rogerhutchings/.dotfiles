@@ -7,8 +7,6 @@
     ~/.config/nvim: vim
     ~/.zshrc: zsh/zshrc
     ~/.zsh: zsh/zsh
-    ~/.zfunctions/prompt_pure_setup: zsh/pure/pure.zsh
-    ~/.zfunctions/async: zsh/pure/async.zsh
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
