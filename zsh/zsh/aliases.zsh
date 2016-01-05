@@ -32,7 +32,8 @@ alias b2d='boot2docker shellinit'
 alias nyan='docker run -it supertest2014/nyan'
 
 alias flac2mp3='parallel --bibtex ffmpeg -i {} -vsync 2 -qscale:a 0 {.}.mp3 ::: *.flac'
-alias flac2alac='for i in *.flac; do ffmpeg -i "$i" -acodec alac "`basename "$i" .flac`.m4a"; done;'
+
+alias flac2alac='mkdir alac && for i in *.flac; do ffmpeg -i "$i" -acodec alac "alac/`basename "$i" .flac`.m4a"; done;'
 
 alias dog='pygmentize -g'
 
