@@ -19,11 +19,6 @@ alias lr='ll -R'
 alias config='subl -n ~/.dotfiles'
 alias reload='source ~/.zshrc'
 
-alias on='workon'
-alias off='deactivate'
-alias mkvenv2='mkvirtualenv `basename \`pwd\`` -a `pwd` -p `which python2.7`'
-alias mkvenv3='mkvirtualenv `basename \`pwd\`` -a `pwd` -p `which python3`'
-
 alias subll='subl -n .'
 alias nv='nvim'
 
@@ -44,3 +39,32 @@ alias tvr='tvr -l minimal'
 # Servers
 alias freenas='ssh roger@freenas.local'
 alias gitlab='ssh roger@gitlab.peroshi.com'
+
+# Pip
+# Create a virtual environment.
+function mkvenv3 {
+    defaultname=`basename $PWD`
+    name=${1:-$defaultname}
+    mkvirtualenv $name -a `pwd` -p `which python3`
+    pip install -U pip setuptools wheel
+}
+function mkvenv2 {
+    defaultname=`basename $PWD`
+    name=${1:-$defaultname}
+    mkvirtualenv $name -a `pwd` -p `which python2`
+    pip install -U pip setuptools wheel
+}
+
+# Install requirements with pip
+function pi {
+    pip install "$@"
+}
+
+function pp {
+    defaultfile='requirements.txt'
+    requirementsfile=${1:-$defaultfile}
+    pi -r $requirementsfile
+}
+
+alias on='workon'
+alias off='deactivate'
