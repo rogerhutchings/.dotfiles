@@ -4,6 +4,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'wavded/vim-stylus'
 Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
+Plug 'ervandew/supertab'
 call plug#end()
 
 " Remove visual bell stuff
