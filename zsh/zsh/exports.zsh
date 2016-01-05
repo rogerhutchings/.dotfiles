@@ -24,3 +24,6 @@ fi
 if [ -d "/Applications/Postgres.app" ]; then
     export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 fi
+
+# Cheat
+export CHEATCOLORS=true
