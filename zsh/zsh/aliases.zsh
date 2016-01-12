@@ -68,3 +68,8 @@ function pp {
 
 alias on='workon'
 alias off='deactivate'
+
+# Typos
+
+alias npmi='npm i'
+alias gpull='git pull'
