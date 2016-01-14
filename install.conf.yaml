@@ -7,6 +7,7 @@
     ~/.config/nvim: vim
     ~/.zshrc: zsh/zshrc
     ~/.zsh: zsh/zsh
+    ~/.ssh/config: ssh/config
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
