@@ -37,8 +37,8 @@ alias tree='tree -C --dirsfirst'
 alias tvr='tvr -l minimal'
 
 # Servers
-alias freenas='ssh roger@freenas.local'
-alias gitlab='ssh roger@gitlab.peroshi.com'
+alias freenas='ssh freenas'
+alias gitlab='ssh gitlab'
 
 # Pip
 # Create a virtual environment.

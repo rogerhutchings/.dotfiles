@@ -1,1 +1,9 @@
 UseRoaming no
+
+Host freenas
+    HostName freenas.local
+    User roger
+
+Host gitlab
+    HostName gitlab.peroshi.com
+    User roger
