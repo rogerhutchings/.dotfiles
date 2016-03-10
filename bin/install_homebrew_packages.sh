@@ -2,6 +2,8 @@
 
 package_list=(
     coreutils
+    ffmpeg
+    flac
     git
     jq
     heroku-toolbelt
