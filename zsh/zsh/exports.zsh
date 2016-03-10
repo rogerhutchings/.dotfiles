@@ -1,5 +1,6 @@
 # Main
 export PATH="$HOME/.rbenv/bin:$PATH:/usr/bin:/usr/local/bin"
+export EDITOR="nvim"
 
 # Node
 export NODE_PATH="$(npm root -g)"
@@ -18,6 +19,9 @@ if [ -f $(brew --prefix)/bin/virtualenvwrapper.sh ]; then
     gpip(){
        PIP_REQUIRE_VIRTUALENV="" pip "$@"
     }
+    gpip3(){
+       PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
+    }
 fi
 
 # Postgres
@@ -27,3 +31,6 @@ fi
 
 # Cheat
 export CHEATCOLORS=true
+
+# Cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"

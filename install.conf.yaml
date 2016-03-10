@@ -10,4 +10,30 @@
     ~/.ssh/config: ssh/config
 
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
+    - 
+      command: git submodule update --init --recursive
+      description: Installing submodules
+    - 
+      command: bin/install_homebrew.sh
+      description: Installing Homebrew
+      stdout: true
+      stderr: true
+    - 
+      command: brew update
+      description: Updating Homebrew
+      stderr: true
+    -
+      command: bin/install_homebrew_packages.sh
+      description: Installing Homebrew packages
+      stdout: true
+      stderr: true
+    -
+      command: brew tap caskroom/cask
+      description: Install Cask for Homebrew
+      stdout: true
+      stderr: true
+    -
+      command: bin/install_cask_packages.sh
+      description: Installing apps via Cask
+      stdout: true
+      stderr: true

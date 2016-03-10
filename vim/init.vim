@@ -5,6 +5,7 @@ Plug 'wavded/vim-stylus'
 Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
 Plug 'ervandew/supertab'
+Plug 'pearofducks/ansible-vim'
 call plug#end()
 
 " Remove visual bell stuff
