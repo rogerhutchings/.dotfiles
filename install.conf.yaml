@@ -37,3 +37,7 @@
       description: Installing apps via Cask
       stdout: true
       stderr: true
+    -
+      command: bin/tweak_osx_settings.sh
+      description: Tweaking OSX settings
+      
