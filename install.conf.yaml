@@ -38,6 +38,16 @@
       stdout: true
       stderr: true
     -
+      command: brew tap caskroom/fonts
+      description: Install Cask fonts for Homebrew
+      stdout: true
+      stderr: true
+    -
+      command: bin/install_cask_fonts.sh
+      description: Installing fonts via Cask
+      stdout: true
+      stderr: true
+    -
       command: bin/tweak_osx_settings.sh
       description: Tweaking OSX settings
       
