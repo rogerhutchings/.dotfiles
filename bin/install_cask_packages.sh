@@ -12,6 +12,7 @@ package_list=(
     google-chrome
     iterm2
     libreoffice
+    razer-synapse
     skype
     slack
     sonos
