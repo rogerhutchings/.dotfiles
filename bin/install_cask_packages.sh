@@ -12,6 +12,7 @@ package_list=(
     google-chrome
     iterm2
     libreoffice
+    licecap
     razer-synapse
     skype
     slack

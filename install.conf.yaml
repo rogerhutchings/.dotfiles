@@ -28,6 +28,16 @@
       stdout: true
       stderr: true
     -
+      command: brew upgrade
+      description: Upgrading installed Homebrew packages
+      stdout: true
+      stderr: true
+    -
+      command: brew cleanup
+      description: Trashing old versions of Homebrew packages
+      stdout: true
+      stderr: true 
+    -
       command: brew tap caskroom/cask
       description: Install Cask for Homebrew
       stdout: true
@@ -45,6 +55,11 @@
     -
       command: bin/install_cask_fonts.sh
       description: Installing fonts via Cask
+      stdout: true
+      stderr: true
+    -
+      command: brew cask cleanup
+      description: Trashing old versions of Homebrew Cask packages
       stdout: true
       stderr: true
     -
