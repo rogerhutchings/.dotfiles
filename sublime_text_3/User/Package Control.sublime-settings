@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"API Blueprint",
+		"Better CoffeeScript",
+		"Djaneiro",
+		"Dockerfile Syntax Highlighting",
+		"eco",
+		"EditorConfig",
+		"EJS",
+		"Enhanced Clojure",
+		"ES6-Toolkit",
+		"IcedCoffeeScript",
+		"Jade",
+		"Jekyll",
+		"JSHint",
+		"JSX",
+		"Monokai Extended",
+		"Package Control",
+		"RawLineEdit",
+		"Sass",
+		"Siteleaf Liquid Syntax",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"Swift"
+	]
+}

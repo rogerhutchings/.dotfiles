@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA['use strict';
+
+module.exports = require('angular')
+    .module('app.${1:module}', [
+    ]);
+]]></content>
+    <tabTrigger>ngmodule</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

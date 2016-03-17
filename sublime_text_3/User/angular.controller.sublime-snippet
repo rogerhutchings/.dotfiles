@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA['use strict';
+
+require('./${1:module}.module.js')
+    .controller('${2:directive}', ${2:directive});
+
+// @ngInject
+function ${2:directive}(${3:dependencies}) {
+    var vm = this;
+}
+]]></content>
+    <tabTrigger>ngcontroller</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
