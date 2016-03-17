@@ -8,6 +8,7 @@
     ~/.zshrc: zsh/zshrc
     ~/.zsh: zsh/zsh
     ~/.ssh/config: ssh/config
+    ~/Library/Application Support/Sublime Text 3/Packages/User: sublime_text_3/User
 
 - shell:
     - 
