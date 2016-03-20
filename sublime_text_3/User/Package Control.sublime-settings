@@ -19,6 +19,7 @@
 		"Jekyll",
 		"JSHint",
 		"JSX",
+		"Markdown Extended",
 		"Monokai Extended",
 		"Package Control",
 		"RawLineEdit",
@@ -27,6 +28,6 @@
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
-		"Swift"
+		"TOML"
 	]
 }
