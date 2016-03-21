@@ -1,4 +1,5 @@
-- clean: ['~']
+- clean: 
+  - '~'
 
 - link: 
     ~/.gitconfig: git/gitconfig
@@ -24,11 +25,6 @@
       description: Updating Homebrew
       stderr: true
     -
-      command: bin/install_homebrew_packages.sh
-      description: Installing Homebrew packages
-      stdout: true
-      stderr: true
-    -
       command: brew upgrade
       description: Upgrading installed Homebrew packages
       stdout: true
@@ -38,6 +34,11 @@
       description: Trashing old versions of Homebrew packages
       stdout: true
       stderr: true 
+    -
+      command: bin/install_homebrew_packages.sh
+      description: Installing Homebrew packages
+      stdout: true
+      stderr: true
     -
       command: brew tap caskroom/cask
       description: Install Cask for Homebrew
