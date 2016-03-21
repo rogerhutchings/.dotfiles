@@ -16,6 +16,7 @@ alias ll='ls -l -v --almost-all --human-readable'
 alias lr='ll -R'
 
 # alias config='subl -n ~/.zsh'
+alias dot='cd ~/.dotfiles'
 alias config='subl -n ~/.dotfiles'
 alias reload='source ~/.zshrc'
 
