@@ -4,7 +4,9 @@ source ~/.zsh/plugins.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/exports.zsh
-[ -f ~/.zsh/credentials.zsh ] && source ~/.zsh/credentials.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/setopt.zsh
 source ~/.zsh/bindings.zsh
+
+# Credentials files aren't part of the repo
+[ -f ~/.zsh/credentials.zsh ] && source ~/.zsh/credentials.zsh
