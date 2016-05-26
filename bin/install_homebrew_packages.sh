@@ -13,6 +13,7 @@ package_list=(
     python
     python3
     rename
+    sl
     tree
     zsh
 )
