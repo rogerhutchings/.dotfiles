@@ -13,6 +13,7 @@ package_list=(
     iterm2
     libreoffice
     licecap
+    ngrok
     razer-synapse
     skype
     slack
