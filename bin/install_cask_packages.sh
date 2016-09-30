@@ -6,6 +6,7 @@ package_list=(
     alfred
     bartender
     cleanmymac
+    carbon-copy-cloner
     disk-inventory-x
     dropbox
     firefox
