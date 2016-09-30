@@ -4,6 +4,7 @@
 package_list=(
     1password
     alfred
+    bartender
     cleanmymac
     disk-inventory-x
     dropbox
@@ -19,6 +20,7 @@ package_list=(
     slack
     sonos
     steam
+    sublime-text
     transmission
     transmit
     virtualbox
