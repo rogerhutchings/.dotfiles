@@ -3,14 +3,13 @@ alias git='hub'
 alias g='git'
 alias gs='git status'
 alias gadd='git add'
+alias gpull='git pull'
 
-alias bfg='java -jar ~/Utils/bfg-1.12.3.jar'
-
-alias pmr='DEBUG=1 python manage.py runserver'
-
+# Set up a cheeky web server in the current directory
 alias server='python3 -m http.server 8000'
 alias serve='server'
 
+# ls aliases
 alias ls='gls --indicator-style=slash --color=auto --group-directories-first'
 alias ll='ls -l -v --almost-all --human-readable'
 alias lr='ll -R'
@@ -20,15 +19,12 @@ alias dot='cd ~/.dotfiles'
 alias config='subl -n ~/.dotfiles'
 alias reload='source ~/.zshrc'
 
+# Editors
 alias subll='subl -n .'
 alias nv='nvim'
 
-alias b2d='boot2docker shellinit'
-
-alias nyan='docker run -it supertest2014/nyan'
-
+# Music conversion
 alias flac2mp3='parallel --bibtex ffmpeg -i {} -vsync 2 -qscale:a 0 {.}.mp3 ::: *.flac'
-
 alias flac2alac='mkdir alac && for i in *.flac; do ffmpeg -i "$i" -acodec alac "alac/`basename "$i" .flac`.m4a"; done;'
 
 alias dog='pygmentize -g'
@@ -37,9 +33,8 @@ alias tree='tree -C --dirsfirst'
 
 alias tvr='tvr -l minimal'
 
-# Servers
-alias freenas='ssh freenas'
-alias gitlab='ssh gitlab'
+# Python
+alias pmr='DEBUG=1 python manage.py runserver'
 
 # Pip
 # Create a virtual environment.
@@ -71,6 +66,4 @@ alias on='workon'
 alias off='deactivate'
 
 # Typos
-
 alias npmi='npm i'
-alias gpull='git pull'
