@@ -27,7 +27,11 @@ alias nv='nvim'
 alias flac2mp3='parallel --bibtex ffmpeg -i {} -vsync 2 -qscale:a 0 {.}.mp3 ::: *.flac'
 alias flac2alac='mkdir alac && for i in *.flac; do ffmpeg -i "$i" -acodec alac "alac/`basename "$i" .flac`.m4a"; done;'
 
+# Coloured version of cat
 alias dog='pygmentize -g'
+
+# Copy pwd to clipboard
+alias cpwd='pwd | tr -d "\n" | pbcopy; echo "Copied `pwd`"'
 
 alias tree='tree -C --dirsfirst'
 
