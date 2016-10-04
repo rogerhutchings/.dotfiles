@@ -33,7 +33,7 @@
 	],
 	"show_full_path": true,
 	"show_tab_close_buttons": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"vintage_ctrl_keys": false,
