@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"API Blueprint",
+		"Babel",
 		"Better CoffeeScript",
 		"Djaneiro",
 		"Dockerfile Syntax Highlighting",
@@ -26,7 +27,10 @@
 		"Siteleaf Liquid Syntax",
 		"Stylus",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flake8",
+		"SublimeLinter-json",
+		"SublimeLinter-jsxhint",
 		"TOML"
 	]
 }
