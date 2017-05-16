@@ -5,15 +5,11 @@ package_list=(
     ffmpeg
     flac
     git
-    jq
     heroku-toolbelt
-    leiningen
     hub
     neovim/neovim/neovim
     python
     python3
-    rename
-    sl
     tree
     zsh
 )
