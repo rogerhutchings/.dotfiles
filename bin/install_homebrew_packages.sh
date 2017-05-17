@@ -3,6 +3,7 @@
 package_list=(
     getantibody/tap/antibody
     coreutils
+    docker
     ffmpeg
     flac
     git

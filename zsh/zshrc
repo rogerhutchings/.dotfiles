@@ -16,5 +16,3 @@ source ~/.zsh/autosrc.zsh
 
 # Credentials files aren't part of the repo
 [ -f ~/.zsh/credentials.zsh ] && source ~/.zsh/credentials.zsh
-
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"

@@ -8,6 +8,7 @@ package_list=(
     cleanmymac
     carbon-copy-cloner
     disk-inventory-x
+    docker
     dropbox
     firefox
     flux

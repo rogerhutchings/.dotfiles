@@ -1,4 +1,6 @@
 # Aliases ----------------------------------------------------------------------
+
+# Git
 alias git='hub'
 alias g='git'
 alias gs='git status'
@@ -37,35 +39,8 @@ alias tree='tree -C --dirsfirst'
 
 alias tvr='tvr -l minimal'
 
-# Python
+# Python, pip, virtualenvs
 alias pmr='DEBUG=1 python manage.py runserver'
-
-# Pip
-# Create a virtual environment.
-function mkvenv3 {
-    defaultname=`basename $PWD`
-    name=${1:-$defaultname}
-    mkvirtualenv $name -a `pwd` -p `which python3`
-    pip install -U pip setuptools wheel
-}
-function mkvenv2 {
-    defaultname=`basename $PWD`
-    name=${1:-$defaultname}
-    mkvirtualenv $name -a `pwd` -p `which python2`
-    pip install -U pip setuptools wheel
-}
-
-# Install requirements with pip
-function pi {
-    pip install "$@"
-}
-
-function pp {
-    defaultfile='requirements.txt'
-    requirementsfile=${1:-$defaultfile}
-    pi -r $requirementsfile
-}
-
 alias on='workon'
 alias off='deactivate'
 

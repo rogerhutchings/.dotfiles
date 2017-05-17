@@ -1,11 +1,12 @@
-autoload -U compinit && compinit                                                                                       
+# https://gist.github.com/ctechols/ca1035271ad134841284
+autoload -Uz compinit
+if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
+  compinit
+else
+  compinit -C
+fi
+
 zmodload -i zsh/complist
-
-# NPM completion
-source <(npm completion)
-
-# NVM completion
-source $NVM_DIR/bash_completion
 
 # man zshcontrib
 zstyle ':vcs_info:*' actionformats '%F{5}(%f%s%F{5})%F{3}-%F{5}[%F{2}%b%F{3}|%F{1}%a%F{5}]%f '
