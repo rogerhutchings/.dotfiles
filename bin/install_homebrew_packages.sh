@@ -12,6 +12,7 @@ package_list=(
     python
     python3
     tree
+    wget
     zsh
 )
 
