@@ -1,6 +1,7 @@
 # Homebrew packages
 
 package_list=(
+    getantibody/tap/antibody
     coreutils
     ffmpeg
     flac

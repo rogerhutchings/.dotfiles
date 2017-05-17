@@ -1,0 +1,5 @@
+rogerhutchings/pure
+mafredri/zsh-async
+rogerhutchings/pure
+zsh-users/zsh-syntax-highlighting
+rupa/z

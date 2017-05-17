@@ -10,7 +10,7 @@ alias server='python3 -m http.server 8000'
 alias serve='server'
 
 # ls aliases
-alias ls='gls --indicator-style=slash --color=auto --group-directories-first'
+alias ls='gls --indicator-style=slash --color=auto --group-directories-first --ignore=.DS_Store'
 alias ll='ls -l -v --almost-all --human-readable'
 alias lr='ll -R'
 

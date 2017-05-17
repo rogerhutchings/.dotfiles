@@ -1,10 +1,5 @@
-source ~/.zsh/antigen/antigen.zsh
+export NVM_LAZY_LOAD=true
 
-antigen bundle mafredri/zsh-async
-antigen bundle rogerhutchings/pure
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle akoenig/gulp.plugin.zsh
-antigen bundle rupa/z
-antigen bundle lukechilds/zsh-nvm
+source <(antibody init)
 
-antigen apply
+antibody bundle < ${0:a:h}/pluginlist.txt

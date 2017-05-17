@@ -1,5 +1,4 @@
 # Main
-export PATH="$HOME/.rbenv/bin:$PATH:/usr/bin:/usr/local/bin"
 export EDITOR="nvim"
 
 # Node

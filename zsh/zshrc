@@ -1,9 +1,14 @@
 # http://zanshin.net/2013/02/02/zsh-configuration-from-the-ground-up/
 
+export PATH="$HOME/.rbenv/bin:$PATH:/usr/bin:/usr/local/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 source ~/.zsh/plugins.zsh
+source ~/.zsh/exports.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/completion.zsh
-source ~/.zsh/exports.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/setopt.zsh
 source ~/.zsh/bindings.zsh
@@ -11,3 +16,5 @@ source ~/.zsh/autosrc.zsh
 
 # Credentials files aren't part of the repo
 [ -f ~/.zsh/credentials.zsh ] && source ~/.zsh/credentials.zsh
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
