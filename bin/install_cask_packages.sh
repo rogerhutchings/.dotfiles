@@ -17,7 +17,6 @@ package_list=(
     libreoffice
     licecap
     ngrok
-    razer-synapse
     skype
     slack
     sonos
