@@ -1,4 +1,5 @@
 UseRoaming no
+UseKeychain yes
 
 Host freenas
     HostName freenas.local

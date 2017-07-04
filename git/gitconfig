@@ -21,9 +21,16 @@ d = diff
 doff = diff
 dc = diff --cached
 
+# Diff of last commit
+dlc = diff HEAD^ HEAD
+
 s = status
 
+pf = push --force-with-lease
+
 pr = pull-request
+
+pl = pull
 
 unstage = reset HEAD
 un = unstage

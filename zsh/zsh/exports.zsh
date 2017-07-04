@@ -1,11 +1,11 @@
 # Main
-export EDITOR="nvim"
+export EDITOR="subl -n"
 
 # Node
 # export NODE_PATH="$(npm root -g)"
 
 # Pip
-export PIP_REQUIRE_VIRTUALENV=true
+# export PIP_REQUIRE_VIRTUALENV=true
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 
 # Postgres
