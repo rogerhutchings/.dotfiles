@@ -1,0 +1,12 @@
+windows:
+  - name: client
+    root: ~/Code/zooniverse/panoptes-javascript-client
+    layout: main-vertical-flipped
+    panes:
+      - npm run dev
+      - npm run lint:watch
+      - focus: true
+        commands: 
+        - open ~/Code/zooniverse/panoptes-javascript-client
+        - open https://github.com/zooniverse/panoptes-javascript-client
+        - subll

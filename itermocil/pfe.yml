@@ -1,0 +1,12 @@
+windows:
+  - name: dashboard
+    root: ~/Code/zooniverse/Panoptes-Front-End
+    panes:
+      - npm start
+  - name: terminal
+    root: ~/Code/zooniverse/Panoptes-Front-End
+    panes:
+      - commands:
+        - subll
+        - open --new http://localhost:3735
+        focus: true

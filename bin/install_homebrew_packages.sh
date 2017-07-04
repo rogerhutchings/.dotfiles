@@ -9,6 +9,7 @@ package_list=(
     git
     heroku-toolbelt
     hub
+    itermocil
     neovim/neovim/neovim
     python
     python3
