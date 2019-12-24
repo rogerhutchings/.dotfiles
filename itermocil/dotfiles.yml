@@ -1,5 +1,0 @@
-windows:
-  - name: dotfiles
-    root: ~/.dotfiles
-    panes:
-      - subll
