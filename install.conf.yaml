@@ -4,6 +4,7 @@
 - link: 
     ~/.gitconfig: src/git/gitconfig
     ~/.oh-my-zsh/custom/aliases.zsh: src/oh-my-zsh/custom/aliases.zsh
+    ~/.oh-my-zsh/custom/config.zsh: src/oh-my-zsh/custom/config.zsh
 #     ~/.zshrc: zsh/zshrc
 #     ~/.zsh: zsh/zsh
 #     ~/.ssh/config: ssh/config
