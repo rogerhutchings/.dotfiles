@@ -1,16 +1,13 @@
 - clean: 
   - '~'
 
-# - link: 
-#     ~/.gitconfig: git/gitconfig
-#     ~/.gitignore: git/gitignore
-#     ~/.npmrc: npm/npmrc
-#     ~/.config/nvim: vim
+- link: 
+    ~/.gitconfig: src/git/gitconfig
+    ~/.oh-my-zsh/custom/aliases.zsh: src/oh-my-zsh/custom/aliases.zsh
 #     ~/.zshrc: zsh/zshrc
 #     ~/.zsh: zsh/zsh
 #     ~/.ssh/config: ssh/config
 #     ~/.itermocil: itermocil
-#     ~/Library/Application Support/Sublime Text 3/Packages/User: sublime_text_3/User
 
 # - shell:
 #     - 

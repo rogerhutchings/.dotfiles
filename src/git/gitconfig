@@ -1,0 +1,68 @@
+[alias]
+	br = branch
+	cl = clone
+	cm = commit
+	co = checkout
+	d = diff
+	dc = diff --cached
+	doff = diff
+	s = status
+	pf = push --force-with-lease
+	pr = pull-request
+	pl = pull
+	un = unstage
+	unstage = reset HEAD
+
+	# Diff of last commit
+	dlc = diff HEAD^ HEAD
+
+	# Trash old branches
+	# http://pedroreys.com/2012/11/21/git-alias-to-delete-all-local-branches/
+	tidy = "git checkout master && git branch --merged | grep -v master | xargs git branch -d"
+
+	# Undo the last commit
+	# http://stackoverflow.com/questions/927358/how-to-undo-the-last-git-commit
+	undo = reset --soft HEAD^
+
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	old = red bold
+	new = green
+
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+
+[github]
+	user = rogerhutchings
+
+[help]
+	autocorrect = 0
+	
+[merge]
+	conflictstyle = diff3
+
+[push]
+	default = current
+
+[rerere]
+	enabled = 1
+
+[status]
+	relativePaths = true
+
+[user]
+	name = Roger Hutchings
+	email = roger@hutchin.gs
+
