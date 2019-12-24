@@ -9,6 +9,8 @@ The following should already be installed:
 - zsh
 - oh-my-zsh
 
+You might need to install `brew` first to do this, ideally in your home directory.
+
 ## Instructions
 
 Clone the repo to your `~` directory, and run `~/.dotfiles/install`.
