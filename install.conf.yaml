@@ -1,8 +1,9 @@
-- clean: 
+- clean:
   - '~'
 
-- link: 
+- link:
     ~/.gitconfig: src/git/gitconfig
     ~/.oh-my-zsh/custom/aliases.zsh: src/oh-my-zsh/custom/aliases.zsh
     ~/.oh-my-zsh/custom/config.zsh: src/oh-my-zsh/custom/config.zsh
+    ~/.ssh/config: src/ssh/config
     ~/.vscode/settings.json: src/vscode/settings.json
