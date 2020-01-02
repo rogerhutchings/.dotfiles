@@ -12,3 +12,6 @@ alias gpull='git pull'
 alias ls='gls --indicator-style=slash --color=auto --group-directories-first'
 alias ll='ls -l -v --almost-all --human-readable'
 alias lr='ll -R'
+
+# vscode
+alias codee='code -n .'
