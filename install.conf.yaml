@@ -7,4 +7,4 @@
     ~/.oh-my-zsh/custom/config.zsh: src/oh-my-zsh/custom/config.zsh
     ~/.oh-my-zsh/custom/homebrew.zsh: src/oh-my-zsh/custom/homebrew.zsh
     ~/.ssh/config: src/ssh/config
-    ~/.vscode/settings.json: src/vscode/settings.json
+    ~/Library/Application Support/Code/User/settings.json: src/vscode/settings.json

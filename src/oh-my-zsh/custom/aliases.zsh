@@ -1,6 +1,3 @@
-# general
-alias reload='source ~/.zshrc'
-
 # git
 alias git='hub'
 alias g='git'
@@ -15,3 +12,7 @@ alias lr='ll -R'
 
 # vscode
 alias codee='code -n .'
+
+# meta
+alias config='code -n ~/.dotfiles'
+alias reload='source ~/.zshrc'

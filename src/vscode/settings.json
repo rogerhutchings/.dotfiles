@@ -4,5 +4,10 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "[python]": {
+    "editor.tabSize": 4,
+  },
+  "editor.fontSize": 16,
+  "files.trimFinalNewlines": true
 }
