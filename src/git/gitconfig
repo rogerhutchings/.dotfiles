@@ -6,10 +6,11 @@
 	d = diff
 	dc = diff --cached
 	doff = diff
-	s = status
+	logg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	pf = push --force-with-lease
-	pr = pull-request
 	pl = pull
+	pr = pull-request
+	s = status
 	un = unstage
 	unstage = reset HEAD
 
@@ -44,6 +45,10 @@
 	changed = yellow
 	untracked = cyan
 
+[core]
+	pager = less -FRX
+	excludesfile = /Users/1715labs/.dotfiles/src/git.gitignore
+
 [github]
 	user = rogerhutchings
 
@@ -52,6 +57,9 @@
 
 [merge]
 	conflictstyle = diff3
+
+[pull]
+	ff = only
 
 [push]
 	default = current
@@ -65,6 +73,3 @@
 [user]
 	name = Roger Hutchings
 	email = roger@hutchin.gs
-
-[core]
-    pager = less -FRX

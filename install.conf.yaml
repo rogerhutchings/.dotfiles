@@ -2,10 +2,7 @@
   - '~'
 
 - link:
+    ~/.zshrc: src/zsh/zshrc
     ~/.gitconfig: src/git/gitconfig
-    ~/.oh-my-zsh/custom/aliases.zsh: src/oh-my-zsh/custom/aliases.zsh
-    ~/.oh-my-zsh/custom/config.zsh: src/oh-my-zsh/custom/config.zsh
-    ~/.oh-my-zsh/custom/homebrew.zsh: src/oh-my-zsh/custom/homebrew.zsh
-    ~/.oh-my-zsh/custom/source.zsh: src/oh-my-zsh/custom/source.zsh
     ~/.ssh/config: src/ssh/config
     ~/Library/Application Support/Code/User/settings.json: src/vscode/settings.json

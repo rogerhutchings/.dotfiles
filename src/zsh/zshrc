@@ -1,0 +1,24 @@
+# brew is currently installed under the admin user, so the permissions mismatch makes compinit
+# worried about insecure directories. This disables the check, and needs to be at the top!
+ZSH_DISABLE_COMPFIX="true"
+
+# load aliases
+source ~/.dotfiles/src/zsh/aliases.zsh
+
+# Load starship prompt
+eval "$(starship init zsh)"
+
+# Load NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Configure Homebrew Cask
+# https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md#options
+export HOMEBREW_CASK_OPTS='--appdir=~/Applications'
+
+# Configure Heroku
+export HEROKU_ORGANIZATION=seventeen-fifteen-labs
+
+# Load rupa/z
+source /usr/local/etc/profile.d/z.sh

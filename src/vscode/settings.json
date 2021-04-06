@@ -12,5 +12,12 @@
   "files.trimFinalNewlines": true,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "window.zoomLevel": 0,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
 }

@@ -16,3 +16,7 @@ alias codee='code -n .'
 # meta
 alias config='code -n ~/.dotfiles'
 alias reload='source ~/.zshrc'
+
+# python
+alias pr='pipenv run'
+alias prp='pipenv run python'
