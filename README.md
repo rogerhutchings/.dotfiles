@@ -7,7 +7,6 @@ This dotfiles repo is based off the excellent [Dotbot][dotbot] [starter template
 The following should already be installed:
 
 - zsh
-- oh-my-zsh
 
 You might need to install `brew` first to do this, ideally in your home directory.
 
