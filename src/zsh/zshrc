@@ -1,0 +1,8 @@
+# load aliases
+source ~/.dotfiles/src/zsh/aliases.zsh
+
+# Load starship prompt
+eval "$(starship init zsh)"
+
+# Configure Heroku
+export HEROKU_ORGANIZATION=seventeen-fifteen-labs

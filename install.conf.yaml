@@ -1,71 +1,8 @@
-- clean: 
+- clean:
   - '~'
 
-- link: 
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore: git/gitignore
-    ~/.npmrc: npm/npmrc
-    ~/.config/nvim: vim
-    ~/.zshrc: zsh/zshrc
-    ~/.zsh: zsh/zsh
-    ~/.ssh/config: ssh/config
-    ~/.itermocil: itermocil
-    ~/Library/Application Support/Sublime Text 3/Packages/User: sublime_text_3/User
-
-- shell:
-    - 
-      command: git submodule update --init --recursive
-      description: Installing submodules
-    - 
-      command: bin/install_homebrew.sh
-      description: Installing Homebrew
-      stdout: true
-      stderr: true
-    - 
-      command: brew update
-      description: Updating Homebrew
-      stderr: true
-    -
-      command: brew upgrade
-      description: Upgrading installed Homebrew packages
-      stdout: true
-      stderr: true
-    -
-      command: brew cleanup
-      description: Trashing old versions of Homebrew packages
-      stdout: true
-      stderr: true 
-    -
-      command: bin/install_homebrew_packages.sh
-      description: Installing Homebrew packages
-      stdout: true
-      stderr: true
-    -
-      command: brew tap caskroom/cask
-      description: Install Cask for Homebrew
-      stdout: true
-      stderr: true
-    -
-      command: bin/install_cask_packages.sh
-      description: Installing apps via Cask
-      stdout: true
-      stderr: true
-    -
-      command: brew tap caskroom/fonts
-      description: Install Cask fonts for Homebrew
-      stdout: true
-      stderr: true
-    -
-      command: bin/install_cask_fonts.sh
-      description: Installing fonts via Cask
-      stdout: true
-      stderr: true
-    -
-      command: brew cask cleanup
-      description: Trashing old versions of Homebrew Cask packages
-      stdout: true
-      stderr: true
-    -
-      command: bin/tweak_osx_settings.sh
-      description: Tweaking OSX settings
-      
+- link:
+    ~/.zshrc: src/zsh/zshrc
+    ~/.gitconfig: src/git/gitconfig
+    ~/.ssh/config: src/ssh/config
+    ~/Library/Application Support/Code/User/settings.json: src/vscode/settings.json
