@@ -1,4 +1,4 @@
-# load aliases
+# Load aliases
 source ~/.dotfiles/src/zsh/aliases.zsh
 
 # Load starship prompt
