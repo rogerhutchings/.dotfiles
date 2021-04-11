@@ -6,3 +6,15 @@
     ~/.gitconfig: src/git/gitconfig
     ~/.ssh/config: src/ssh/config
     ~/Library/Application Support/Code/User/settings.json: src/vscode/settings.json
+
+# Configure iTerm2
+# http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
+- shell:
+  -
+    command: defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/src/iterm2"
+    description: Specify the preferences directory
+    quiet: true
+  -
+    command: defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+    description: Tell iTerm2 to use the custom preferences from the directory
+    quiet: true
