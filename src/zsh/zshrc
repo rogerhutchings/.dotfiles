@@ -15,3 +15,12 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+# Load NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# Load pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
